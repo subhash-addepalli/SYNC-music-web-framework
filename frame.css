@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background-image: url('baloons.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 5px solid red;
+    height: 100vh;
+    width: 100vw;
+}
+nav
+{
+    margin-left: 70%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+    color: black;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style-type:none ;
+    align-items: flex-end;
+}
+nav ul li:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+.sub {
+    margin-top: 80px;
+    padding-left: 30%; 
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+.sub input{
+    width: 379px;
+    height: 33px;
+}
+.sub p{
+    font-size: 30px;
+    font-weight: 200;
+}
+.pop{
+    font-family:"Funnel Display", sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+}
+.subhash{
+    font-family: "Emilys Candy", serif;
+    font-size: 100px;
+}
+.sub h2
+{
+    font-family: "Paprika", system-ui;
+    font-size: 50px;
+}
+.ma{
+    margin-top: -24%;
+    padding-left: 63%; 
+    padding-bottom: 25%;
+    height:10vh;
+}
+.b{
+    height:600px;
+    width:550px;
+}
+.amma{
+    margin-left: 150px;
+    margin-top: -135%;
+    margin-bottom: 9%;
+    height: 600px;
+    border-radius: 10px;
+}
+.tex{
+    display:flex;
+    gap: 10px;
+}
+.icon{
+    width:31px;
+    height: 30px;
+    cursor: pointer;
+}
